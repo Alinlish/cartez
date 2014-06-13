@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 
  $AdresaBazaDate = "localhost";
  $UtilizatorBazaDate = "root";
- $ParolaBazaDate = "proiect";
+ $ParolaBazaDate = "";
  $NumeBazaDate = "librarie";
 
  $conexiune = mysql_connect($AdresaBazaDate,$UtilizatorBazaDate,$ParolaBazaDate) or die("Nu ma pot conecta la MySQL!");

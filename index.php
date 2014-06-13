@@ -11,6 +11,7 @@
   <?php	
   
   $oohLaLogApiKey = '4a794af8-6140-4edd-8643-4d3e9f5e872d';
+  $OLL_LOG_FILE = "C:\Users\Alin\Desktop\error.log";
 require('oohLaLogger.php');
 
 require_once('config.php');
@@ -50,7 +51,7 @@ echo '<br /><br /><br /><p id="alb_mic">Datele de logare nu au fost completate.<
 }
 else
 {
-$cerereSQL = "SELECT * FROM `useri` WHERE e_mail='".htmlentities($_POST['e_mail'])."' AND parola='".md5($_POST['parola'])."'";
+$cerereSQL = "SELECT * FROM `useri` WHERE e_mail='".htmlentities($_POST['e_mail'])."' AND parola='".($_POST['parola'])."'";
 $rezultat = mysql_query($cerereSQL);
 if(mysql_num_rows($rezultat) == 1)
 {
