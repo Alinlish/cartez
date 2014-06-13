@@ -9,6 +9,10 @@
   <body class="twoColFixLtHdr">
   <div id="autentifica">
   <?php	
+  
+  $oohLaLogApiKey = '4a794af8-6140-4edd-8643-4d3e9f5e872d';
+require('oohLaLogger.php');
+
 require_once('config.php');
 
 if(!isset($_GET['actiune'])) $_GET['actiune'] = '';
