@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ingrosat {
+	font-weight: bold;
+	font-size: x-large;
+	font-family: Geneva, Arial, Helvetica;
+}
+.dunga{
+	border-left-style: solid;
+	border-left-width: 2px;
+}
+.mare {
+	font-family: Geneva, Arial, Helvetica;
+	font-size: large;
+}
+.faradunga {
+	font-family: Geneva, Arial, Helvetica; font-size: small; 
+}
+.cudunga {
+	border-left-style: solid; 
+	border-left-width: 2px; 
+	font-family: Geneva, Arial, Helvetica; font-size: small; 
+}
+.medie{
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica; font-size: 14px;
+}
